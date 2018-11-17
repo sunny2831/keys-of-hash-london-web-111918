@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(arguments)
+  def keys_of(*arguments)
     animals = []
   		self.each { |animal, place|
   			if arguments.include?(place)
